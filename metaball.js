@@ -1,6 +1,6 @@
 let num = 5;
 let blobs = [];
-let speed = 2.0;
+let speed = 1.0;
 
 function setup() {
     createCanvas(800, 600);
@@ -25,8 +25,8 @@ function draw() {
 
             let index = (x + y * width) * 4;
             pixels[index] = 0;
-            pixels[index + 1] = 0;
-            pixels[index + 2] = sum * 80;
+            pixels[index + 1] = sum * 20;
+            pixels[index + 2] = sum * 70;
             pixels[index + 3] = 255;
         }
     }
