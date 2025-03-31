@@ -1,6 +1,6 @@
 let num = 5;
 let blobs = [];
-let speed = 1.0;
+let speed = 2.0;
 
 function setup() {
     createCanvas(800, 600);
